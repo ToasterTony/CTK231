@@ -1,56 +1,70 @@
-/* Anything between these two tags will be ignored by the browser */
+/* Body */
 
-h1{
-    color: red;
+body {
+  color: #000000;
+  background-color: #eeeeee;
 }
 
-/*
-p{
-    color: #ff3366;
-    background-color: #00ff00;
-}
-    */
+/* Headings */
 
-.specialp{
-    color: blue;
-    background-color: #ff0000;
+h1 {
+  color: #ffffff;
+  background-color: #333399;
 }
 
-#specialID{
-    color: green;
-    background-color: #ffff33f9;
+h2 {
+  color: #0000ff;
+  background-color: #ffffff;
 }
 
-.orangebg{
-    background-color: orange;
+h3 {
+  color: #333333;
+  background-color: #dddddd;
 }
 
-.spanstyle{
-    color: blue;
+/* Paragraph text */
+
+p {
+  color: #000000;
 }
 
-a{
-    color:#ff0000;
-    text-decoration: none;
+/* Navigation */
+
+nav {
+  background-color: #cccccc;
 }
 
-a:link{
-    color:#00ff00;
+/* Links */
+
+a:link {
+  color: #ff0000;
 }
 
-a:visited{
-    color:#0000ff;
+a:visited {
+  color: #008000;
 }
 
-a:active{
-    color:#00ffff;
+a:hover {
+  color: #ffff00;
 }
 
-a:hover{
-    color:#ff00ff;
-    text-decoration: underline;
+/* Divs */
+
+#program {
+  background-color: #ffffff;
 }
 
-footer{
-    background-color: green;
+#requirements {
+  background-color: #ffffff;
+}
+
+#classes {
+  background-color: #ffffff;
+}
+
+/* Span */
+
+.special {
+  color: #ff0000;
+  background-color: #ffff00;
 }
