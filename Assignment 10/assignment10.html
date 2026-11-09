@@ -1,11 +1,18 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>William Hein | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,24 +24,123 @@
         <h1 class="logo">My Portfolio</h1>
 
         <nav>
-            <a href="#placeholder" class="active">Home</a>
-            <a href="#placeholder">About</a>
-            <a href="#placeholder">Audio</a>
-            <a href="#placeholder">Projects</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#video">Video</a>
         </nav>
     </header>
 
-    <main id="home">
+    <main>
 
-        <h2>Hi, I’m William Hein!</h2>
+        <!-- Home Section -->
+        <section id="home">
 
-        <p>
-            I’m a Game Design student with a passion<br>
-            for creating fun, creative and<br>
-            meaningful experiences!
-        </p>
+            <h2>Hi, I'm William Hein!</h2>
 
-        <img src="william-photo.jpg" alt="William Hein">
+            <p>
+                I'm a Game Design student with a passion
+                for creating fun, creative, and
+                meaningful experiences!
+            </p>
+
+            <img src="william-photo.jpg" alt="William Hein">
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+
+            <h2>About Me</h2>
+
+            <p>
+                I'm a Game Design student who enjoys creating games
+                and experimenting with different gameplay mechanics.
+                I'm especially interested in platformers, movement
+                mechanics, speedrun potential,and Collectathons.
+            </p>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+
+                <i class="bi bi-controller"></i>
+
+                <h3>Game Projects</h3>
+
+                <p>
+                    Games I've crafted as a part of my studies,
+                    mostly done in Unity and Unreal Engine. 
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <i class="bi bi-volume-up"></i>
+
+                <h3>Audio Projects</h3>
+
+                <p>
+                    Music and sound design for various game projects,
+                    including upbeat tunes and ambient pieces.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Video Section -->
+        <section id="video" class="content-section">
+
+            <h2>48-Hour Short Film</h2>
+
+            <p>
+                I participated in a 48-hour short film project.
+                Where we had to make a short film in 48 hours.
+            </p>
+
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube.com/embed/YN7a72RX2ys"
+                title="48-Hour Short Film"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <p>Thanks for visiting my portfolio!</p>
+
+            <div class="social-icons">
+
+                <a href="#home">
+                    <i class="bi bi-house"></i>
+                </a>
+
+                <a href="#about">
+                    <i class="bi bi-person"></i>
+                </a>
+
+                <a href="#projects">
+                    <i class="bi bi-controller"></i>
+                </a>
+
+            </div>
+
+        </footer>
 
     </main>
 
