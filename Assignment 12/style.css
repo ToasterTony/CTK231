@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #d8f4d9;
+    background-color: #8cb88d;
     color: black;
     font-family: 'Lora', Georgia, serif;
 }
@@ -246,4 +246,104 @@ footer p {
 .film-links a:hover {
     color: #25833c;
     text-decoration: underline;
+}
+
+
+.project-card {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.project-page {
+    min-height: 600px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #e2ffe4;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+.project-item h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.project-item img {
+    display: block;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+.games-theme {
+    background-color: #badcf7;
+}
+
+.games-theme header,
+.games-theme footer {
+    background-color: #e2f1ff;
+}
+
+.games-theme .project-item {
+    background-color: #e2f1ff;
+}
+
+.games-theme .project-item:hover {
+    background-color: white;
+}
+
+.games-theme .content-section {
+    background-color: #badcf7;
+}
+
+body.games-page {
+    background-color: #8fb6d4;
+}
+
+
+
+
+
+
+.audio-theme {
+    background-color: #f7c2c2;
+}
+
+.audio-theme header,
+.audio-theme footer {
+    background-color: #ffe2e2;
+}
+
+.audio-theme .project-item {
+    background-color: #ffe2e2;
+}
+
+.audio-theme .project-item:hover {
+    background-color: white;
+}
+
+.audio-theme .content-section {
+    background-color: #f7c2c2;
+}
+
+body.audio-page {
+    background-color: #c59292;
 }
